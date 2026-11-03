@@ -67,12 +67,15 @@ Its 100% spam precision on this test split means that none of the messages predi
 
 ## Sample Predictions
 
-| Message | Prediction |
-|---|---|
-| URGENT! You have won Rs. 50000. Click here to claim your reward! | Spam |
-| Good morning! I will reach the office in 10 minutes. | Ham |
-| Your OTP is 458921. Do not share it with anyone. | Ham |
-| Congratulations! Claim your free gift now! | Spam |
+The following examples demonstrate predictions made by the trained Logistic Regression model.
+
+| Message | Prediction | Ham Probability | Spam Probability |
+|---|---|---:|---:|
+| URGENT! You have won Rs. 50000. Click here to claim your reward! | SPAM | 19.25% | 80.75% |
+| Good morning! I will reach the office in 10 minutes. | HAM | 89.64% | 10.36% |
+| Your OTP is 458921. Do not share it with anyone. | HAM | 73.47% | 26.53% |
+| Congratulations! You won a free gift! | SPAM | 47.16% | 52.84% |
+
 
 ## Project Structure
 
